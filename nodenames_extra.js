@@ -9,12 +9,16 @@ var nodenames_extra = {
 pcm_bits_next0:14194,
 pcm_bits_next1:14232,
 pcm_bits_next2:14273,
+'/pcm_bits_next0':14185,
+'/pcm_bits_next1':14227,
+'/pcm_bits_next2':14266,
 
 pcm_bits_carry_out0:11555,
 pcm_bits_carry_out1:11565,
 pcm_bits_carry_out2:11540,
 '+pcm_bits_carry_out2':14177,
 '+/pcm_bits_carry_out2':11389,
+'+_pcm_bits_carry_out2':13850,
 
 inc_pcm_bits:11538,
 
@@ -29,6 +33,10 @@ pcm_timer_eq_100000000_or_res:11524,
 // Generated when the timer runs out
 pcm_clock:11508,
 '/pcm_clock':11382,
+
+// Logic
+
+pcm_clock_and_bits_remain:11102,
 
 // Misc.
 
