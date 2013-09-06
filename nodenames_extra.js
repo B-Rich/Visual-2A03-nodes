@@ -22,6 +22,34 @@ pcm_bits_carry_out2:11540,
 
 inc_pcm_bits:11538,
 
+// Byte counter
+
+pcm_lc_next0:14016,
+pcm_lc_next1:13972,
+pcm_lc_next2:13914,
+pcm_lc_next3:13864,
+pcm_lc_next4:13811,
+pcm_lc_next5:13749,
+pcm_lc_next6:13693,
+pcm_lc_next7:13634,
+pcm_lc_next8:13569,
+pcm_lc_next9:13501,
+pcm_lc_next10:13434,
+pcm_lc_next11:13360,
+
+pcm_lc_borrow0:11433,
+pcm_lc_borrow1:11409,
+pcm_lc_borrow2:11388,
+pcm_lc_borrow3:11368,
+pcm_lc_borrow4:11343,
+pcm_lc_borrow5:11319,
+pcm_lc_borrow6:11291,
+pcm_lc_borrow7:11244,
+pcm_lc_borrow8:11209,
+pcm_lc_borrow9:11173,
+pcm_lc_borrow10:11128,
+pcm_lc_borrow11:11096,
+
 // Timer
 
 pcm_timer_eq_0:11541,
@@ -49,6 +77,8 @@ pcm_clock:11508,
 // Logic
 
 pcm_clock_and_bits_remain:11102,
+pcm_load_length_and_address:11092,
+pcm_dec_length_and_inc_addr:11097,
 
 // Misc.
 
