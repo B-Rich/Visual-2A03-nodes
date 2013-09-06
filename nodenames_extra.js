@@ -50,6 +50,9 @@ pcm_lc_borrow9:11173,
 pcm_lc_borrow10:11128,
 pcm_lc_borrow11:11096,
 
+'+pcm_lc_borrow11':11463,
+'+/pcm_lc_borrow11':11473,
+
 // Timer
 
 pcm_timer_eq_0:11541,
