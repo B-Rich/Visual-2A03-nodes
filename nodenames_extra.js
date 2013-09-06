@@ -53,6 +53,24 @@ pcm_lc_borrow11:11096,
 '+pcm_lc_borrow11':11463,
 '+/pcm_lc_borrow11':11473,
 
+// Sample address
+
+pcm_a_carry_out0:11596,
+pcm_a_carry_out1:11624,
+pcm_a_carry_out2:11662,
+pcm_a_carry_out3:11677,
+pcm_a_carry_out4:11698,
+pcm_a_carry_out5:11735,
+pcm_a_carry_out6:11785,
+pcm_a_carry_out7:11824,
+pcm_a_carry_out8:11849,
+pcm_a_carry_out9:11873,
+pcm_a_carry_out10:11895,
+pcm_a_carry_out11:11917,
+pcm_a_carry_out12:11951,
+pcm_a_carry_out13:11978,
+pcm_a_carry_out14:12001, // Unused
+
 // Timer
 
 pcm_timer_eq_0:11541,
@@ -74,6 +92,8 @@ pcm_clock:11508,
 '+pcm_sr5':13630,
 '+pcm_sr6':13686,
 '+pcm_sr7':13741,
+
+load_pcm_buf:11094, // TODO: Does other stuff too
 
 'pcm_+/sr0':13334, // Typo in nodenames.js
 
