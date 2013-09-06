@@ -71,6 +71,31 @@ pcm_a_carry_out12:11951,
 pcm_a_carry_out13:11978,
 pcm_a_carry_out14:12001, // Unused
 
+// Counter/output
+
+pcm_counter0:13644,
+pcm_counter1:13574,
+pcm_counter2:13504,
+pcm_counter3:13428,
+pcm_counter4:13350,
+pcm_counter5:13289,
+pcm_counter6:13255,
+
+'/pcm_counter0':13646,
+'/pcm_counter1':11241,
+'/pcm_counter2':11203,
+'/pcm_counter3':11165,
+'/pcm_counter4':11121,
+'/pcm_counter5':10999,
+'/pcm_counter6':10957,
+
+pcm_counter_next1:13606,
+pcm_counter_next2:13534,
+pcm_counter_next3:13458,
+pcm_counter_next4:13373,
+pcm_counter_next5:13303,
+pcm_counter_next6:13267,
+
 // Timer
 
 pcm_timer_eq_0:11541,
