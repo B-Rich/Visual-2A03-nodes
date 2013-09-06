@@ -34,6 +34,18 @@ pcm_timer_eq_100000000_or_res:11524,
 pcm_clock:11508,
 '/pcm_clock':11382,
 
+// Sample shift register
+
+'+pcm_sr1':13351,
+'+pcm_sr2':13424,
+'+pcm_sr3':13493,
+'+pcm_sr4':13561,
+'+pcm_sr5':13630,
+'+pcm_sr6':13686,
+'+pcm_sr7':13741,
+
+'pcm_+/sr0':13334, // Typo in nodenames.js
+
 // Logic
 
 pcm_clock_and_bits_remain:11102,
