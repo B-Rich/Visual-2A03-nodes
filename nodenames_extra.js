@@ -15,10 +15,11 @@ pcm_bits_next2:14273,
 
 pcm_bits_carry_out0:11555,
 pcm_bits_carry_out1:11565,
-pcm_bits_carry_out2:11540,
-'+pcm_bits_carry_out2':14177,
-'+/pcm_bits_carry_out2':11389,
-'+_pcm_bits_carry_out2':13850,
+//pcm_bits_carry_out2:11540,
+pcm_bits_overflow:11540,
+'+pcm_bits_overflow':14177,
+'+/pcm_bits_overflow':11389,
+'+_pcm_bits_overflow':13850,
 
 inc_pcm_bits:11538,
 
@@ -142,6 +143,32 @@ pcm_enabled_while_off:11480,
 // Misc.
 
 'apu_/clk2e':14148,
+
+//
+// OAM DMA
+//
+
+spr_addr_next0:13319,
+spr_addr_next1:13391,
+spr_addr_next2:13466,
+spr_addr_next3:13533,
+spr_addr_next4:13598,
+spr_addr_next5:13658,
+spr_addr_next6:13715,
+spr_addr_next7:13773,
+
+spr_addr_carry_out0:11125,
+spr_addr_carry_out1:11169,
+spr_addr_carry_out2:11206,
+spr_addr_carry_out3:11239,
+spr_addr_carry_out4:11287,
+spr_addr_carry_out5:11317,
+spr_addr_carry_out6:11341,
+//spr_addr_carry_out7:11366,
+spr_addr_overflow:11366,
+'+spr_addr_overflow':14033,
+
+inc_spr_addr:11098,
 
 }
 
