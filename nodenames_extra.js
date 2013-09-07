@@ -133,6 +133,7 @@ pcm_clock_and_bits_remain:11102,
 pcm_load_length_and_address:11092,
 '/pcm_load_length_and_address':14034,
 pcm_dec_length_and_inc_addr:11097,
+pcm_copy_buf_to_sr:11093,
 
 pcm_en_out:14061,
 '/pcm_en_out':11487,
@@ -146,6 +147,8 @@ pcm_enabled_while_off:11480,
 // Misc.
 
 'apu_/clk2e':14148,
+'/clk1out_1':13986,
+'/clk1out_2':14145,
 
 //
 // OAM DMA
@@ -172,6 +175,14 @@ spr_addr_overflow:11366,
 '+spr_addr_overflow':14033,
 
 inc_spr_addr:11098,
+
+'/(clk2_and_read)':14152,
+
+doing_oam_dma:14117,
+'/doing_oam_dma':14126,
+
+'+/doing_oam_dma':14141,
+'doing_oam_dma_and_clk2_read':11482,
 
 }
 
