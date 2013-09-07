@@ -98,6 +98,9 @@ pcm_counter_next4:13373,
 pcm_counter_next5:13303,
 pcm_counter_next6:13267,
 
+pcm_counter_overflow:10818, // Renamed
+'+pcm_counter_overflow':13837,
+
 // Timer
 
 pcm_timer_eq_0:11541,
