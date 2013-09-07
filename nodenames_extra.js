@@ -50,7 +50,8 @@ pcm_lc_borrow9:11173,
 pcm_lc_borrow10:11128,
 pcm_lc_borrow11:11096,
 
-'+pcm_lc_borrow11':11463,
+//'+pcm_lc_borrow11':11463,
+pcm_no_bytes_remain:11463,
 '+/pcm_lc_borrow11':11473,
 
 // Sample address
@@ -126,7 +127,17 @@ load_pcm_buf:11094, // TODO: Does other stuff too
 
 pcm_clock_and_bits_remain:11102,
 pcm_load_length_and_address:11092,
+'/pcm_load_length_and_address':14034,
 pcm_dec_length_and_inc_addr:11097,
+
+pcm_en_out:14061,
+'/pcm_en_out':11487,
+'+/pcm_en_out':14079,
+'+pcm_en_out':14076,
+'++pcm_en_out':14075,
+
+// Detects a not enabled->enabled transition
+pcm_enabled_while_off:11480,
 
 // Misc.
 
