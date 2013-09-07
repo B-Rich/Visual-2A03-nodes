@@ -168,6 +168,12 @@ doing_pcm_read:11466,
 '++/doing_pcm_read':14088,
 '++doing_pcm_read':11515,
 
+// Register
+
+// Probably used to pull down rdy longer
+halt_cpu_for_pcm_dma_reg:14059,
+'/halt_cpu_for_pcm_dma_reg':14058,
+
 // Misc.
 
 'apu_/clk2e':14148,
@@ -216,10 +222,16 @@ doing_oam_dma:11475,
 
 '+doing_oam_dma':14071,
 '+/doing_oam_dma':11489,
+'+_doing_oam_dma':14108,
 
 // Register: Generates a 50% duty cycle clock at half the CPU freq.
 dma_clock1:14174,
 dma_clock2:14161,
+
+'/halt_cpu_for_oam_dma':14063,
+'/halt_cpu_for_pcm_dma':11483,
+// Pulls rdy low when high
+halt_cpu:14039,
 
 }
 
