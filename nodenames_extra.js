@@ -205,6 +205,10 @@ doing_oam_dma:11475,
 '+doing_oam_dma':14071,
 '+/doing_oam_dma':11489,
 
+// Register: Generates a 50% duty cycle clock at half the CPU freq.
+dma_clock1:14174,
+dma_clock2:14161,
+
 }
 
 for (var extra_node in nodenames_extra) {
