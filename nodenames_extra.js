@@ -135,14 +135,26 @@ pcm_load_length_and_address:11092,
 pcm_dec_length_and_inc_addr:11097,
 pcm_copy_buf_to_sr:11093,
 
+// pcm_en is
+//   - set by 4015 write,
+//   - cleared by reset,
+//   - and cleared by set_pcm_irq
+
 pcm_en_out:14061,
 '/pcm_en_out':11487,
 '+/pcm_en_out':14079,
 '+pcm_en_out':14076,
 '++pcm_en_out':14075,
+'++/pcm_en_out':11444,
 
 // Detects a not enabled->enabled transition
 pcm_enabled_while_off:11480,
+
+// Register: Driven high by load_pcm_buf and low by pcm_copy_buf_to_sr.
+loading_pcm_buf:13874,
+'/loading_pcm_buf':11402,
+
+_loading_pcm_buf:14018,
 
 // Misc.
 
@@ -178,11 +190,20 @@ inc_spr_addr:11098,
 
 '/(clk2_and_read)':14152,
 
-doing_oam_dma:14117,
-'/doing_oam_dma':14126,
+// Register: Driven high by $4014 write
+oam_dma_trigger:14117,
+'/oam_dma_trigger':14126,
 
-'+/doing_oam_dma':14141,
-'doing_oam_dma_and_clk2_read':11482,
+'+/oam_dma_trigger':14141,
+'oam_dma_trigger_and_clk2_and_read':11482,
+
+// Registers: Driven high by start of OAM DMA transfer and low by the OAM
+// address overflowing
+doing_oam_dma:11475,
+'/doing_oam_dma':14047,
+
+'+doing_oam_dma':14071,
+'+/doing_oam_dma':11489,
 
 }
 
