@@ -156,6 +156,18 @@ loading_pcm_buf:13874,
 
 _loading_pcm_buf:14018,
 
+'/(clk2_and_read)_2':13999,
+
+// Register
+set_doing_pcm_read:14005,
+doing_pcm_read:11466,
+'/doing_pcm_read':14029,
+
+'+doing_pcm_read':14045,
+'+/doing_pcm_read':11476,
+'++/doing_pcm_read':14088,
+'++doing_pcm_read':11515,
+
 // Misc.
 
 'apu_/clk2e':14148,
