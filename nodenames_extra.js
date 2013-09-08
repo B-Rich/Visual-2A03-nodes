@@ -53,7 +53,7 @@ pcm_lc_borrow11:11096,
 
 //'+pcm_lc_borrow11':11463,
 pcm_no_bytes_remain:11463,
-'+/pcm_lc_borrow11':11473,
+'/pcm_no_bytes_remain':11473,
 
 // Sample address
 
@@ -179,6 +179,12 @@ halt_cpu_for_pcm_dma_reg:14059,
 'apu_/clk2e':14148,
 '/clk1out_1':13986,
 '/clk1out_2':14145,
+
+drive_db4_low:14107,
+drive_db4_high:14089,
+
+// Correction - is inverted
+'/r4015':10749,
 
 //
 // OAM DMA
