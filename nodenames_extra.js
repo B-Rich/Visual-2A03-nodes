@@ -156,6 +156,19 @@ loading_pcm_buf:13874,
 
 _loading_pcm_buf:14018,
 
+'+loading_pcm_buf':13845,
+'+/loading_pcm_buf':11385,
+'+_loading_pcm_buf':13976,
+
+pcm_out_of_bits_and_not_loading_buf:13961,
+
+// Register:
+//   - Cleared by data being copied into the shift register.
+//   - Set when shift register exhausted, before (potentially)
+//     loading another byte
+pcm_sr_empty:13884,
+'/pcm_sr_empty':11406,
+
 '/(clk2_and_read)_2':13999,
 
 // Register
