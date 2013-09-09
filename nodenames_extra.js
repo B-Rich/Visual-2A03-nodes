@@ -125,6 +125,9 @@ pcm_clock:11508,
 
 load_pcm_buf:11094, // TODO: Does other stuff too
 
+load_pcm_buf_delayed:11427,
+'/load_pcm_buf_delayed':11518,
+
 'pcm_+/sr0':13334, // Typo in nodenames.js
 
 // Logic
@@ -151,8 +154,8 @@ pcm_en_out:14061,
 pcm_enabled_while_off:11480,
 
 // Register: Driven high by load_pcm_buf and low by pcm_copy_buf_to_sr.
-loading_pcm_buf:13874,
-'/loading_pcm_buf':11402,
+pcm_buf_has_data:13874,
+'/pcm_buf_has_data':11402,
 
 _loading_pcm_buf:14018,
 
@@ -169,6 +172,8 @@ pcm_out_of_bits_and_not_loading_buf:13961,
 pcm_sr_empty:13884,
 '/pcm_sr_empty':11406,
 
+'+pcm_sr_empty':13857,
+
 '/(clk2_and_read)_2':13999,
 
 // Register
@@ -183,13 +188,15 @@ doing_pcm_read:11466,
 
 // Register
 
-// Probably used to pull down rdy longer
-halt_cpu_for_pcm_dma_reg:14059,
-'/halt_cpu_for_pcm_dma_reg':14058,
+read_pcm_sample_reg:14059,
+'/read_pcm_sample_reg':14058,
+
+'/read_pcm_sample':11411,
 
 // Misc.
 
 'apu_/clk2e':14148,
+'_apu_/clk2e':13969,
 '/clk1out_1':13986,
 '/clk1out_2':14145,
 
