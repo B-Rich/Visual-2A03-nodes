@@ -157,13 +157,13 @@ pcm_enabled_while_off:11480,
 pcm_buf_has_data:13874,
 '/pcm_buf_has_data':11402,
 
-_loading_pcm_buf:14018,
+_pcm_buf_has_data:14018,
 
-'+loading_pcm_buf':13845,
-'+/loading_pcm_buf':11385,
-'+_loading_pcm_buf':13976,
+'+pcm_buf_has_data':13845,
+'+/pcm_buf_has_data':11385,
+'+_pcm_buf_has_data':13976,
 
-pcm_out_of_bits_and_not_loading_buf:13961,
+pcm_out_of_bits_and_buf_has_no_data:13961,
 
 // Register:
 //   - Cleared by data being copied into the shift register.
