@@ -167,12 +167,12 @@ pcm_out_of_bits_and_buf_has_no_data:13961,
 
 // Register:
 //   - Cleared by data being copied into the shift register.
-//   - Set when shift register exhausted, before (potentially)
-//     loading another byte
-pcm_sr_empty:13884,
-'/pcm_sr_empty':11406,
+//   - Set when the shift register becomes empty and the buffer
+//     has no data
+pcm_out_of_data:13884,
+'/pcm_out_of_data':11406,
 
-'+pcm_sr_empty':13857,
+'+pcm_out_of_data':13857,
 
 '/(clk2_and_read)_2':13999,
 
