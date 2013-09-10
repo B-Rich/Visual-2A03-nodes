@@ -336,6 +336,11 @@ clear_tri_lin_reload:13683,
 '+_tri_lin_reload':11342,
 '+/tri_lin_reload':13808,
 
+// Enabling
+
+'tri_+en':14611,
+'+/tri_en':14660,
+
 //
 // Misc.
 //
