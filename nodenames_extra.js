@@ -259,6 +259,31 @@ dma_clock2:14161,
 // Pulls rdy low when high
 halt_cpu:14039,
 
+//
+// Triangle channel
+//
+
+tri_lc_borrow0:10974,
+tri_lc_borrow1:11004,
+tri_lc_borrow2:11124,
+tri_lc_borrow3:11168,
+tri_lc_borrow4:11205,
+tri_lc_borrow5:11238,
+//tri_lc_borrow6:11288,
+tri_lc_eq_0:11288,
+'+tri_lc_eq_0':13745,
+
+tri_lc_next0:13239,
+tri_lc_next1:13280,
+tri_lc_next2:13317,
+tri_lc_next3:13389,
+tri_lc_next4:13464,
+tri_lc_next5:13531,
+tri_lc_next6:13596,
+
+tri_copy_lin_to_counter:10945,
+tri_dec_lin_counter:10948,
+
 }
 
 for (var extra_node in nodenames_extra) {
