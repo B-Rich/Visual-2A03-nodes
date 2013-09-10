@@ -296,6 +296,31 @@ tri_t_next10:13358,
 tri_copy_p_to_t:11100,
 tri_dec_t:11095,
 
+// Length counter
+
+tri_len_borrow0:12003,
+tri_len_borrow1:11982,
+tri_len_borrow2:11952,
+tri_len_borrow3:11919,
+tri_len_borrow4:11898,
+tri_len_borrow5:11875,
+tri_len_borrow6:11853,
+//tri_len_borrow7:11828,
+tri_len_eq_0:11828,
+'+tri_len_eq_0':14698,
+
+tri_len_next0:15104,
+tri_len_next1:15065,
+tri_len_next2:15019,
+tri_len_next3:14967,
+tri_len_next4:14898,
+tri_len_next5:14847,
+tri_len_next6:14797,
+tri_len_next7:14746,
+
+// Renamed
+dec_tri_len:11750,
+
 // Linear counter
 
 tri_lc_borrow0:10974,
@@ -340,6 +365,8 @@ clear_tri_lin_reload:13683,
 
 'tri_+en':14611,
 '+/tri_en':14660,
+
+'+tri_/on':14676,
 
 //
 // Misc.
