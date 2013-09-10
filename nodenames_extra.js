@@ -263,6 +263,41 @@ halt_cpu:14039,
 // Triangle channel
 //
 
+// Timer
+
+tri_t_borrow0:11410,
+tri_t_borrow1:11387,
+tri_t_borrow2:11367,
+tri_t_borrow3:11344,
+tri_t_borrow4:11320,
+tri_t_borrow5:11293,
+tri_t_borrow6:11243,
+tri_t_borrow7:11208,
+tri_t_borrow8:11172,
+tri_t_borrow9:11127,
+//tri_t_borrow10:11091,
+tri_t_eq_0:11091,
+'+tri_t_eq_0':13998,
+'+/tri_t_eq_0':13990,
+'+_tri_t_eq_0':13984,
+
+tri_t_next0:13970,
+tri_t_next1:13912,
+tri_t_next2:13862,
+tri_t_next3:13809,
+tri_t_next4:13747,
+tri_t_next5:13691,
+tri_t_next6:13632,
+tri_t_next7:13567,
+tri_t_next8:13499,
+tri_t_next9:13432,
+tri_t_next10:13358,
+
+tri_copy_p_to_t:11100,
+tri_dec_t:11095,
+
+// Linear counter
+
 tri_lc_borrow0:10974,
 tri_lc_borrow1:11004,
 tri_lc_borrow2:11124,
