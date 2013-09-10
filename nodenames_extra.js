@@ -319,6 +319,31 @@ tri_lc_next6:13596,
 tri_copy_lin_to_counter:10945,
 tri_dec_lin_counter:10948,
 
+// Halt flag (some nodes renamed)
+
+'tri_halt':11304,
+'/tri_halt':13653,
+'tri_+halt':13667,
+
+// Register
+//   - Set by $400B write
+//   - Cleared by quarter frame signal if halt flag is clear
+tri_lin_reload:11316,
+'/tri_lin_reload':11307,
+
+'+tri_lin_reload':13689,
+clear_tri_lin_reload:13683,
+'+_tri_lin_reload':11342,
+'+/tri_lin_reload':13808,
+
+//
+// Misc.
+//
+
+// Renamed - they are inverted
+'/frm_half':10563,
+'/frm_quarter':10293,
+
 }
 
 for (var extra_node in nodenames_extra) {
