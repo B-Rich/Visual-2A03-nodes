@@ -356,7 +356,7 @@ tri_dec_lin_counter:10948,
 tri_lin_reload:11316,
 '/tri_lin_reload':11307,
 
-'+tri_lin_reload':13689,
+'+/tri_lin_reload':13689,
 clear_tri_lin_reload:13683,
 '+_tri_lin_reload':11342,
 '+/tri_lin_reload':13808,
@@ -367,6 +367,52 @@ clear_tri_lin_reload:13683,
 '+/tri_en':14660,
 
 '+tri_/on':14676,
+
+// Renamed
+'/_tri_on':11346,
+
+// Output
+
+tick_tri_waveform:11431,
+
+tri_c_carry0:11408,
+tri_c_carry1:11384,
+tri_c_carry2:11363,
+tri_c_carry3:11339,
+tri_c_carry4:11324, // Unused
+
+tri_c_next0:13957,
+tri_c_next1:13901,
+tri_c_next2:13852,
+tri_c_next3:13797,
+tri_c_next4:13735,
+
+//
+// Frame counter
+//
+
+// If set, 5-step sequence
+'frm_+seqmode':13096,
+'+frm_/seqmode':13050,
+'+frm_seqmode':13072,
+'+_frm_/seqmode':10724,
+
+// Register - goes high for a short time after $4017 writes
+write_4017:10762,
+'/write_4017':10778,
+
+'+/write_4017':10752,
+'+write_4017_and_apu_clk2':13175,
+
+'+write_4017':10631,
+
+'frm_seqmode_and_+write_4017':10159,
+
+'/(+write_4017_or_frm_d_or_frm_e)':13001,
+'+write_4017_or_frm_d_or_frm_e':12991,
+
+'(+write_4017_or_frm_d_or_frm_e)_and_apu_clk2':10265,
+'/(+write_4017_or_frm_d_or_frm_e)_and_apu_clk2':10264,
 
 //
 // Misc.
