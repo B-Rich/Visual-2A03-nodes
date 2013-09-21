@@ -359,7 +359,7 @@ tri_lin_reload:11316,
 '+/tri_lin_reload':13689,
 clear_tri_lin_reload:13683,
 '+_tri_lin_reload':11342,
-'+/tri_lin_reload':13808,
+'+/_tri_lin_reload':13808,
 
 // Enabling
 
